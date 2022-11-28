@@ -1,3 +1,4 @@
 document.querySelector("h1") .addEventListener("click", function (){
-  document.body.style.color = "purple"; 
+  var colorRandom = Math.floor(Math.random()*16777215).tostring(16); 
+  document.body.style.color ="#"+colorRandom; 
 }); 
